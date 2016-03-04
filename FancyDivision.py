@@ -12,8 +12,8 @@ divisor = int(raw_input())
 answer = int(dividend / divisor)
 remainder = float(dividend % divisor)
  
-if remainder != 0:
-	print("{} divided by {} is {} with a remainder of {}".format(divisor, dividend, answer, remainder))
+if remainder != "0" :
+	print(str(divisor) + " divided by " + str(dividend) + " is " + str(answer) + " with a remainder of " + str(remainder))
 
-if remainder == 0:
-	print("{} divided by {} is {}".format(divisor, dividend, answer))
+if remainder == "0" :
+	print(str(divisor) + " divided by " + str(dividend) + " is " + str(answer))
